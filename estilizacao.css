@@ -67,7 +67,7 @@ img {
 
 .centralized__content {
     width: 80%;
-    margin: 0 auto
+    margin: 0 auto;
 }
 
 .content__primary--title {
@@ -96,6 +96,16 @@ img {
 
 .section__content img {
     width: 32rem;
+}
+
+.header__aju {
+    padding: 2.0rem;
+    color: white;
+    font-family: var(--primary-font);
+    font-size: 3.0rem;
+    font-weight: 200;
+    font-style: normal;
+    margin-left: 10.5rem;
 }
 
 .section__content h2 {
@@ -151,3 +161,118 @@ img {
     padding: 1.0rem 1.0rem;
 }
 
+.centralized__content--menu {
+    width: 80%;
+    margin: 0 auto;
+    height: 55.0rem;
+    margin-top: 4.0rem;
+}
+
+.displayflex {display: flex;}
+
+.content__contact--title {
+    font-family: var(--primary-font);
+    font-size: 3.8rem;
+    font-weight: 200;
+    color: black;
+    text-align: center;
+    margin-right: 13.0rem;
+    margin-bottom: 2.0rem;
+}
+
+.content__contact {
+    display: flex;
+    flex-direction: column;
+    margin-top: 1.8rem;
+}
+
+.content__contact article {
+    display: flex;
+    align-items: center;
+    margin: 1.1rem;
+    gap: 0.9rem;
+}
+
+.content__contact p {
+    font-family: var(--secondary-font);
+    font-size: 1.3rem;
+}
+
+.icon-image {width: 8%;}
+
+.form__contact {
+    width: 60.0rem;
+    border-radius: 2px;
+}
+
+.form__title {display: none;}
+
+.form__fieldset {
+    display: flex;
+    border: none;
+    flex-direction: column;
+    gap: 0.4rem;
+}
+
+.form__label {
+    padding: 1.0rem 1.0rem 1.0rem 0;
+    text-transform: uppercase;
+    font-size: 1.1rem;
+    font-family: var(--secondary-font);
+    text-align: left;
+    font-weight: 500;
+    color: #4F4F4F;
+}
+
+.form__input {
+    border: none;
+    border-bottom: 1px solid var(--primary-color);
+    outline: none;
+    padding: 0.7rem 0;
+    font-size: 1.2rem;
+    transition: padding-left .05s;
+    font-family: var(--secondary-font);
+    color: #4F4F4F; 
+    resize:none; 
+}
+
+.form__input:focus {
+    outline: 1px solid var(--primary-color);
+    padding-left: 0.2rem;
+}
+
+.form__input:focus:valid {
+   outline: 2px solid #006400;
+}
+
+.form__input:focus:invalid {
+    outline: 2px solid #B22222;
+}
+
+.btn_sendmessage {
+    color: white;
+    text-transform: uppercase;
+    background-color: var(--primary-color);
+    padding:0.7rem 0.9rem;
+    font-size: 1.2rem;
+    border: none;
+    border-radius: 3px;
+    outline: none;
+    font-weight: 600;
+    letter-spacing: 0.8px;
+    margin-top: 0.8rem;
+}
+
+.header__superior a {
+    text-decoration: none;
+}
+
+.header__logo--contact {
+    color: white;
+    font-family: var(--primary-font);
+    font-size: 3.0rem;
+    font-weight: 200;
+    font-style: normal;
+    margin-left: 10.5rem;
+    margin-top: 2.0rem;
+}
