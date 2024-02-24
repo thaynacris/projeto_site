@@ -26,7 +26,6 @@ img {
     max-width: 100%;
 }
 
-
 .header__superior {
     display: flex;
     justify-content: space-between;
@@ -56,13 +55,6 @@ img {
     margin-right: 1.8rem;
     list-style-type: none;
     padding: 1.3rem;
-}
-
-@media screen and (max-width: 768px) {
-    .header__menu {
-        flex-direction: column;
-        align-items: center;
-    }
 }
 
 .header__menu a {
@@ -98,31 +90,9 @@ img {
     margin-bottom: 7%;
 }
 
-/*.section__content {
-    display: flex;
-    justify-content: space-between;
-}*/
-
-
 .section__content {
     display: flex;
-    flex-wrap: wrap; /* Adiciona esta propriedade para garantir que os itens sejam dispostos em várias linhas */
-}
-
-.section__content article {
-    flex: 0 0 calc(33.333% - 2.0rem); /* Define a largura dos artigos para ocupar cerca de um terço da largura do contêiner */
-    margin: 0 10px 20px; /* Adiciona margens para espaçar os artigos */
-}
-
-@media screen and (max-width: 7.68rem) {
-    .section__content article {
-        flex: 0 0 calc(50% - 2.0rem); /* Altera a largura dos artigos para ocupar metade da largura do contêiner em telas menores */
-    }
-}
-
-.section__content img {
-    max-width: 100%; /* Garante que as imagens tenham uma largura máxima de 100% do contêiner pai */
-    height: auto; /* Permite que a altura das imagens seja ajustada automaticamente */
+    justify-content: space-between;
 }
 
 .header__aju {
@@ -155,7 +125,7 @@ img {
 }
 
 .content__secondary {
-    background-image: url(image/bg_detalhe.png);
+    background-image: url(../images/bg_detalhe.png);
     background-repeat: no-repeat;
     background-position: right bottom;
     padding: 0.7rem 2rem 3rem 10rem;;
